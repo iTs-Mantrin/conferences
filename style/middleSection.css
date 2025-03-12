@@ -1,0 +1,18 @@
+.middleSection{
+    display: flex;
+}
+.col-2{
+    padding: 0px 10px;
+}
+.col-8{
+    padding: 0px 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        .middleSection{
+            flex-direction: column;
+        }
+    }
+  }

@@ -1,0 +1,140 @@
+.registrationGuide{
+    
+    margin: 0px 20px;
+}
+.registraionFees>h1{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+
+.register>h1{
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-align: right;
+    color: #337ab7;
+
+}
+
+.register>h1>a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.feeTable{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.feeTableBody>tr>td,th{
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #ddd;
+}
+
+.register>p{
+    padding-top: 10px;
+    color: red;
+}
+.register>p>a{
+    text-decoration: none;
+}
+
+.paymentDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bankDetails>h2{
+    font-size: 16px;
+}
+.bankDetails>h2>span{
+    font-weight:400;
+}
+.qrScanner{
+    margin: 2px;
+    border: 1px solid #ddd;
+}
+
+
+.accommodation>h1{
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.accommodation>p{
+    font-size: 20px;
+}
+
+.rewardsForOutstandingPapers>h1{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.rewardsForOutstandingPapers>p{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        .registraionFees>h1{
+            width: 100%;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .feeTableBody>tr>td,th{
+            padding: 2px;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .register>p{
+            text-align: justify;
+            font-size: 10px;
+        }
+
+        .register>h1>a{
+            font-size: small;
+        }
+        
+        .bankDetails>h2{
+            font-size: 10px;
+            text-align: left;
+        }
+
+        
+
+        .qrScanner>img{
+            height: 100px;
+    
+        }
+        .accommodation>h1{
+            padding-top: 10px;
+            font-size: 20px;
+            text-align: left;
+        }
+        
+        .accommodation>p{
+            font-size: 16px;
+            text-align: justify;
+        }
+        
+        .rewardsForOutstandingPapers>h1{
+            font-size: 20px;
+            text-align: left;
+        }
+        
+        .rewardsForOutstandingPapers>p{
+            font-size: 16px;
+            text-align: justify;
+        }
+        
+    }
+  }

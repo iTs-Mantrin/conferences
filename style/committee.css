@@ -1,0 +1,6 @@
+
+
+.mentors,.organisingCommittee{
+    display: flex;
+    justify-content: space-around;
+}
