@@ -1,0 +1,77 @@
+.callforpapersContainer{
+    margin: 10px;
+    padding-bottom: 40px;}
+
+.description{
+    padding: 5px;
+}
+
+.description>h1{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-align: justify;
+}
+.description>h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+.description>p{
+    font-size: 16px;
+    text-align: justify;
+}
+.description>ul>li{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.description>p>span{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.tableBody>tr>td{
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #ddd;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        .description>h1{
+            font-size: 18px;
+            padding-top: 10px;
+            font-size: 18px;
+        }
+        .description>h2{
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        
+        .description>p{
+            font-size: 14px;
+            text-align: justify;
+        }
+        .description>li{
+            padding: 2px;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .tableBody>tr>td{
+            padding: 2px;
+            text-align: left;
+            font-size: 12px;
+        }
+        
+    }
+  }

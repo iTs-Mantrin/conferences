@@ -1,0 +1,148 @@
+.header{
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:10px;
+}
+
+.col-3{
+    flex: 3;
+    text-align: center;
+}
+
+.col-3>img{
+    width: 200px;
+}
+
+
+.col-2{
+    flex: 2;
+    text-align: center;
+}
+
+
+
+.col-2>img{
+    width: 150pxpx;
+    height: 150px
+}
+
+.col-8{
+
+    flex: 8;
+}
+
+.seminarContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seminarContainer>h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+.seminarContainer>h1{
+    text-align: center;
+    color: #ee420a;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.seminarContainer>h2{
+    text-align: center;
+    color: #01458e;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.seminarContainer>h3{
+    text-align: center;
+    color: #01458e;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+.seminarContainer>h4{
+    text-align: center;
+    color: #01458e;
+    font-size: 18px;
+}
+
+.seminarContainer>hr{
+    border-top: 2px solid gray;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.seminarContainer>h5,h6{
+    text-align: center;
+    color: #ee420a;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        .header{
+            width: 100%;
+            max-width: 600px;
+            padding: 0px 20px;
+            align-items: center;
+            align-content: center;
+        }
+      .headerContainer{
+        flex-direction: column;
+        align-items: center;
+
+      }
+      .col-3{
+        padding-top:10px;
+        text-align: center;
+        width: 100%;
+    }
+    .col-3>img{
+        width: 250px;
+    }
+      .col-2{
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .col-2>img{
+        width: 125px;
+    }
+    
+
+
+    .col-8{
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+     
+    .seminarContainer>h1{
+        font-size: 25px;
+    }
+    .seminarContainer>h2{
+        font-size: 15px !important;
+    }
+    .seminarContainer>h3{
+        font-size: 14px !important;
+    }
+    .seminarContainer>h4{
+        font-size: 16px !important;
+    }
+    .seminarContainer>h5{
+        font-size: 14px !important;
+    }
+    .seminarContainer>h6{
+        font-size: 12px !important;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+
+.corouselImg>img{
+    width: 100%;
+}
+
+.aboutSection>h1{
+    padding-top:25px ;
+    font-size: 26px;
+}
+
+.aboutSection>p{
+    text-align: justify;
+    color: #333333;
+    line-height: 26px;
+    padding: 5px 0px;
+}
+
+.trackSection>h1{
+    padding-top:25px ;
+    font-size: 20px;
+}
+
+.guestSection{
+    width: 100%;
+    align-content: center;
+}
+.guestGroup{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+.guestItem{
+    align-content: center;
+}
+
+.guestSection{
+    padding: 10px 0px;
+}
+
+.guestSection>h1{
+    font-size: 20px;
+    text-align: justify;
+    color: #333333;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card>img{
+    height: 250px;
+}
+
+.card-body{
+    height: 8rem;
+}
+
+.card-body>h2{
+    font-size: 17px;
+    text-align: center;
+}
+.card-body>h3{
+    font-size: 16px;
+}
+.card-body>h4{
+    font-size: 14px;
+}
+
+.card-body>h5{
+    font-size: 12px;
+}
+
+.speakerGroup{
+    display: flex;
+    gap: 5px;
+}
+
+.academicPartners{
+    padding-top:10px ;
+}
+.academicPartners>h1{
+    font-size: 20px;
+}
+.mediaPartners>h1{
+    font-size: 20px;
+    padding-top: 10px
+}
+
+.imagesItem{
+    padding: 5px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.imagesItem>img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        .guestGroup{
+            flex-direction: column;
+        }
+        .card{
+            width: 100% !important;
+        }
+    }
+  }

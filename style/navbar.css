@@ -1,0 +1,29 @@
+.navGroup{
+    display: flex;
+    padding: 10px;
+}
+.navButton{
+    background-color: #337ab7;
+    margin: 5px 0px;
+    padding: 10px 0px ;
+    border-radius: 5px;
+}
+
+.navButton>a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.container{
+font-size: 14px;
+}
+
+.container>span{
+    margin: 0px 5px;
+}
+
+.sponsors>h1{
+    font-size: 20px;
+    padding-top: 10px
+}

@@ -1,0 +1,22 @@
+
+.headingItem>h1{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.headingItem>h2,.organisingCommitteeList>h2{
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.headingItem>p,.organisingCommitteeList>p,.mentorslist>p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.mentors,.organisingCommittee{
+    display: flex;
+    justify-content: space-around;
+}

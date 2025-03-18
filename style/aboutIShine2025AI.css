@@ -1,0 +1,60 @@
+.aboutIShine{
+    margin:0px 20px;
+    padding-bottom: 40px;}
+
+.description{
+    padding: 10px;
+}
+
+.description>h1{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-align: justify;
+}
+.description>h2{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+.description>p{
+    font-size: 16px;
+    text-align: justify;
+}
+.description>ul>li{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.description>p>span{
+    font-weight: bold;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        .description>h1{
+            font-size: 18px;
+            padding-top: 10px;
+            font-size: 18px;
+        }
+        .description>h2{
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        
+        .description>p{
+            font-size: 14px;
+            text-align: justify;
+        }
+        .description>li{
+            padding: 2px;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        
+        
+    }
+  }
